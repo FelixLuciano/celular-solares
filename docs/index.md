@@ -119,5 +119,5 @@ img, iframe {
     </template>
   </VPTeamPageTitle>
 
-  <VPTeamMembers :members="$frontmatter.members" />
+  <VPTeamMembers size="small" :members="$frontmatter.members" />
 </VPTeamPage>
