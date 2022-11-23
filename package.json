@@ -1,0 +1,15 @@
+{
+  "name": "unknown",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "markdown-it-katex": "^2.0.3",
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  }
+}
