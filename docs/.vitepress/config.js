@@ -24,6 +24,7 @@ export default {
 
   themeConfig: {
     siteTitle: 'Células Solares',
+    logo: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-0.1em%22 y=%22.90em%22 font-size=%2286%22>🌞</text></svg>',
 
     nav: [
       { text: 'Insper', link: 'https://insper.edu.br' },
@@ -33,20 +34,20 @@ export default {
       { icon: 'github', link: 'https://github.com/FelixLuciano/celulas-solares' }
     ],
 
-    sidebar: [
-      {
-        text: 'Introdução',
-        items: [
-          { text: 'Sobre', link: '/sobre/' },
-        ],
-      },
-      {
-        text: 'Relatórios',
-        items: [
-          { text: '2022', link: '/relatorios/2022' },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Introdução',
+    //     items: [
+    //       { text: 'Sobre', link: '/sobre/' },
+    //     ],
+    //   },
+    //   {
+    //     text: 'Relatórios',
+    //     items: [
+    //       { text: '2022', link: '/relatorios/2022' },
+    //     ],
+    //   },
+    // ],
 
     outline: 'deep',
     outlineTitle: 'Tópicos',
