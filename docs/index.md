@@ -11,10 +11,10 @@ hero:
   actions:
   - theme: brand
     text: 📰 Relatório
-    link: /relatorios/2022
+    link: /relatorio
   - theme: alt
     text: Sobre
-    link: /sobre/
+    link: /sobre
 
 features:
 - icon: 👩‍🔬
