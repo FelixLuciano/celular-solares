@@ -22,12 +22,12 @@ hero:
 features:
 - icon: 👩‍🔬
   title: Paulina Achurra
-  details: Ph.D.
+  details: Ph.D. in Chemical Engineering
   link: http://lattes.cnpq.br/8604197623762869
-  linkText: Lattes
+  linkText: CV Lattes
 - icon: 👩‍🔬
   title: Carolina Costrino
-  details: Master
+  details: Mestrado em Química Estrutural e Espectroscopia
   link: https://www.linkedin.com/in/carolina-costrino/
   linkText: LinkedIn
 
@@ -56,6 +56,33 @@ members:
 
 ## Introdução
 
-::: danger To do
-	Hello World!
-:::
+A maior parte da energia consumida no mundo é proveniente de combustíveis fósseis que
+em sua combustão fornece energia e emite gases de efeito estufa responsáveis pelo
+aquecimento global do planeta. O relatório do Painel Intergovernamental de Mudanças
+Climáticas (IPCC, 2018[^1]) alerta que se o aquecimento global não for
+combatido a tempo pode causar extinção em massa de espécies selvagens, alterações
+significativas das zonas climáticas, mudança no padrão de chuvas e monções, declínio
+acentuado da produção de alimentos, entre outros muitos impactos.
+
+Nesse contexto, nos próximos anos será fundamental utilizar fontes de energia renováveis
+que são mais limpas e ambientalmente benignas, onde se destacam as células fotovoltaicas
+mais conhecidas como células solares. E neste projeto aprendemos os princípios por trás
+do funcionamento de células solares, técnicas de caracterização e aplicação desses dispositivos.
+
+### Como funcionam células solares
+
+<iframe width="672" height="378" src="https://www.youtube.com/embed/L_q6LRgKpTw" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+
+### Células solares sensibilizadas por corante
+
+<iframe width="672" height="378" src="https://www.youtube.com/embed/g1TfQ9rypHI" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+
+
+## Processo de foncecção de uma célula solar
+
+<figure>
+  <img src="/image/esquema-de-fabricacao.jpg" alt="Esquema de montagem de uma célula solar sensibilizada por corante">
+  <figcaption>Figura 1 - Esquema de montagem de uma célula solar sensibilizada por corante</figcaption>
+</figure>
+
+[^1]: IPCC. Global **Warming of 1.5°C**. Cambridge University Press, Cambridge, UK and New York. 2018. Disponível em: [ipcc.ch/sr15](https://www.ipcc.ch/sr15/).
