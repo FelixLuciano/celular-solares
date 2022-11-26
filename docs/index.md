@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home-doc
 
 hero:
   name: Células Solares
@@ -14,7 +14,7 @@ hero:
     link: /relatorio
   - theme: alt
     text: Sobre
-    link: /sobre
+    link: "#introducao"
 
 features:
 - icon: 👩‍🔬
@@ -51,73 +51,8 @@ members:
     icon: github
 ---
 
-<script setup>
-import {
-  VPTeamPage,
-  VPTeamPageTitle,
-  VPTeamMembers,
-} from 'vitepress/theme'
-</script>
+## Introdução
 
-<style>
-:root {
-    --vp-c-brand: #eab308;
-    --vp-c-brand-light: #fbbf24;
-    --vp-c-brand-lighter: #fcd34d;
-    --vp-c-brand-dark: #d97706;
-    --vp-c-brand-darker: #b45309;
-
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #eab308, #ef4444);
-    --vp-home-hero-image-background-image: linear-gradient( -45deg, #eab308B0 50%, #ef4444B0 50% );
-    --vp-home-hero-image-filter: blur(6rem);
-}
-
-img, iframe {
-	border-radius: .25rem;
-}
-
-.VPButton.brand {
-  animation-name: bounce;
-  animation-delay: 2s;
-  animation-duration: 1s;
-  animation-iteration-count: 3;
-  transform-origin: center bottom;
-}
-@keyframes bounce {
-  /* Source: https://github.com/animate-css/animate.css/blob/main/source/attention_seekers/bounce.css */
-  from, 20%, 53%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: translate3d(0, 0, 0);
-  }
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -30px, 0) scaleY(1.1);
-  }
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -15px, 0) scaleY(1.05);
-  }
-  80% {
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: translate3d(0, 0, 0) scaleY(0.95);
-  }
-  90% {
-    transform: translate3d(0, -4px, 0) scaleY(1.02);
-  }
-}
-
-.VPFeature .title {
-  font-size: 1.5rem;
-}
-</style>
-
-<VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>
-      Nossa Equipe
-    </template>
-  </VPTeamPageTitle>
-
-  <VPTeamMembers size="small" :members="$frontmatter.members" />
-</VPTeamPage>
+::: danger To do
+	Hello World!
+:::
