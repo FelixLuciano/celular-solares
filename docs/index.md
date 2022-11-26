@@ -1,5 +1,6 @@
 ---
 layout: home-doc
+sidebar: false
 
 title: Início
 

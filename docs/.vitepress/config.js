@@ -34,20 +34,15 @@ export default {
       { icon: 'github', link: 'https://github.com/FelixLuciano/celulas-solares' }
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Introdução',
-    //     items: [
-    //       { text: 'Sobre', link: '/sobre/' },
-    //     ],
-    //   },
-    //   {
-    //     text: 'Relatórios',
-    //     items: [
-    //       { text: '2022', link: '/relatorios/2022' },
-    //     ],
-    //   },
-    // ],
+    sidebar: [
+      {
+        text: '',
+        items: [
+          { text: 'Sobre', link: '/' },
+          { text: 'Relatório', link: '/relatorio' },
+        ],
+      },
+    ],
 
     outline: 'deep',
     outlineTitle: 'Tópicos',

@@ -1,5 +1,6 @@
 ---
 title: Relatório
+sidebar: false
 
 hero:
     name: Relatório
@@ -15,9 +16,6 @@ import { VPHomeHero } from 'vitepress/theme'
 </script>
 
 <VPHomeHero />
-
-<VPSwitchAppearance />
-
 
 ## 1.   Experimental
 
