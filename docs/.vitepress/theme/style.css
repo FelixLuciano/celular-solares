@@ -7,10 +7,14 @@
 
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #eab308, #ef4444);
-    --vp-home-hero-image-background-image: linear-gradient( -45deg, #eab308B0 50%, #ef4444B0 50% );
     --vp-home-hero-image-filter: blur(6rem);
 }
 
 img, iframe {
 	border-radius: .25rem;
+}
+
+main .VPHero {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
