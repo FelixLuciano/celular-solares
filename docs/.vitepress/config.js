@@ -6,8 +6,8 @@ export default {
   base: '/celulas-solares/',
 
   lang: 'pt-BR',
-  title: 'Monitorando as Águas',
-  description: 'Monitorando as Águas da Ponte Cidade Jardim.',
+  title: 'Células Solares',
+  description: 'Células Solares sensibilizadas por corantes.',
 
   head: [
     ['link', { rel: 'icon', href: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-0.1em%22 y=%22.90em%22 font-size=%2286%22>🌞</text></svg>" }],

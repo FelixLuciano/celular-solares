@@ -1,4 +1,6 @@
 ---
+title: Relatório
+
 hero:
     name: Relatório
     text: Células Solares sensibilizadas por corantes

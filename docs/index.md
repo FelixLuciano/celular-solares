@@ -1,6 +1,8 @@
 ---
 layout: home-doc
 
+title: Início
+
 hero:
   name: Células Solares
   text: sensibilizadas por corantes
