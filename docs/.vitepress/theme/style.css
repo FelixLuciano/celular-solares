@@ -10,6 +10,10 @@
     --vp-home-hero-image-filter: blur(6rem);
 }
 
+::selection {
+    background-color: rgba(234 179 8 / .75);
+}
+
 img, iframe {
 	border-radius: .25rem;
 }
