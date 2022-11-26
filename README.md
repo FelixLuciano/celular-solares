@@ -1,6 +1,6 @@
 [Paulina Achurra, Ph.D.](http://lattes.cnpq.br/8604197623762869). Química Tecnológica e Ambiental. [Insper](https://github.com/Insper), 2022.
 
-# Células Solares
+# 🌞 Células Solares
 
 [![.github/workflows/deploy.yml](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml)
 [![pages-build-deployment](https://github.com/FelixLuciano/celulas-solares/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/pages/pages-build-deployment)
