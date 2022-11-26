@@ -24,18 +24,6 @@ const { frontmatter } = useData()
 
 
 <style>
-.VPHomeDocHero ~ .Layout > .VPContent h2:first-of-type {
-    margin-top: 0;
-}
-</style>
-
-<style scoped>
-.VPHomeDocHero {
-    --vp-home-hero-image-background-image: linear-gradient( -45deg, #eab308B0 50%, #ef4444B0 50% );
-
-    padding-top: var(--vp-nav-height) !important;
-    margin-top: var(--vp-nav-height) !important;
-}
 .VPHomeDocHero .VPButton.brand {
   animation-name: bounce;
   animation-delay: 2s;
@@ -43,9 +31,9 @@ const { frontmatter } = useData()
   animation-iteration-count: 3;
   transform-origin: center bottom;
 }
-.VPHomeDocTeamPage {
-  margin-top: 24px;
-  padding-bottom: 64px !important;
+
+.VPHomeDocHero ~ .Layout > .VPContent h2:first-of-type {
+    margin-top: 0;
 }
 
 @keyframes bounce {
@@ -69,6 +57,19 @@ const { frontmatter } = useData()
   90% {
     transform: translate3d(0, -4px, 0) scaleY(1.02);
   }
+}
+</style>
+
+<style scoped>
+.VPHomeDocHero {
+    --vp-home-hero-image-background-image: linear-gradient( -45deg, #eab308B0 50%, #ef4444B0 50% );
+
+    padding-top: var(--vp-nav-height) !important;
+    margin-top: var(--vp-nav-height) !important;
+}
+.VPHomeDocTeamPage {
+  margin-top: 24px;
+  padding-bottom: 64px !important;
 }
 
 .VPFeature .title {
