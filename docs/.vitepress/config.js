@@ -10,7 +10,7 @@ export default {
   description: 'Células Solares sensibilizadas por corantes.',
 
   head: [
-    ['link', { rel: 'icon', href: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-0.1em%22 y=%22.90em%22 font-size=%2286%22>🌞</text></svg>" }],
+    ['link', { rel: 'icon', href: "/image/sun_with_face_color.svg" }],
     ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" }]
   ],
 
@@ -24,7 +24,7 @@ export default {
 
   themeConfig: {
     siteTitle: 'Células Solares',
-    logo: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-0.1em%22 y=%22.90em%22 font-size=%2286%22>🌞</text></svg>',
+    logo: 'public/image/sun_with_face_3d.png',
 
     nav: [
       { text: 'Insper', link: 'https://insper.edu.br' },

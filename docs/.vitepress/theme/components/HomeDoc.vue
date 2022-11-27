@@ -31,9 +31,15 @@ const { frontmatter } = useData()
   animation-iteration-count: 3;
   transform-origin: center bottom;
 }
-
+.VPHomeDocHero .VPImage {
+  width: 256px;
+}
 .VPHomeDocHero ~ .Layout > .VPContent h2:first-of-type {
     margin-top: 0;
+}
+
+.VPDocHero .VPImage{
+  width: 128px;
 }
 
 @keyframes bounce {

@@ -7,7 +7,7 @@ hero:
     text: Células Solares sensibilizadas por corantes
     tagline: 2022
     image:
-        src: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-0.1em%22 y=%22.90em%22 font-size=%2286%22>📰</text></svg>
+        src: /image/newspaper_3d.png
         alt: Células Solares
 ---
 
@@ -15,7 +15,7 @@ hero:
 import { VPHomeHero } from 'vitepress/theme'
 </script>
 
-<VPHomeHero />
+<VPHomeHero class="VPDocHero" />
 
 ## 1.   Experimental
 
