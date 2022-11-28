@@ -33,7 +33,7 @@ export default {
     localeLinks: {
       items: [
         {
-          link: 'http://localhost:5173/celulas-solares/',
+          link: '/',
           text: '🇧🇷 pt-BR',
         },
       ]
