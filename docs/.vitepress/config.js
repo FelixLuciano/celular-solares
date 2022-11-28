@@ -38,7 +38,7 @@ export default {
       {
         text: '',
         items: [
-          { text: 'Sobre', link: '/' },
+          { text: 'Introdução', link: '/' },
           { text: 'Relatório', link: '/relatorio' },
         ],
       },
@@ -48,7 +48,7 @@ export default {
     outlineTitle: 'Tópicos',
 
     footer: {
-      message: 'Publicado sob a Licença MIT.\,br.Icones por <a href="https://github.com/microsoft/fluentui-emoji">microsoft/fluentui-emoji</a>.',
+      message: 'Publicado sob a Licença MIT.<br/>Icones por <a href="https://github.com/microsoft/fluentui-emoji">microsoft/fluentui-emoji</a>.',
       copyright: 'Copyright © 2022'
     }
   }
