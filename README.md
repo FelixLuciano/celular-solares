@@ -2,8 +2,7 @@
 
 # 🌞 Células Solares
 
-[![.github/workflows/deploy.yml](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml)
-[![pages-build-deployment](https://github.com/FelixLuciano/celulas-solares/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/pages/pages-build-deployment)
+[![Deploy](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml)
 
 [Abrir relatório](https://lucianofelix.com.br/celulas-solares/)
 
