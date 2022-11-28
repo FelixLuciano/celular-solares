@@ -6,11 +6,11 @@ export default {
   base: '/celulas-solares/',
 
   lang: 'pt-BR',
-  title: 'Células Solares',
+  title: 'Células Solares sensibilizadas por corantes',
   description: 'Células Solares sensibilizadas por corantes.',
 
   head: [
-    ['link', { rel: 'icon', href: "/image/sun_with_face_color.svg" }],
+    ['link', { rel: 'icon', href: "/image/fluentui-emoji/sun_with_face_3d.png" }],
     ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" }]
   ],
 
@@ -24,7 +24,7 @@ export default {
 
   themeConfig: {
     siteTitle: 'Células Solares',
-    logo: 'public/image/sun_with_face_3d.png',
+    logo: '/image/fluentui-emoji/sun_with_face_3d.png',
 
     nav: [
       { text: 'Insper', link: 'https://insper.edu.br' },
@@ -48,7 +48,7 @@ export default {
     outlineTitle: 'Tópicos',
 
     footer: {
-      message: 'Publicado sob a Licença MIT.',
+      message: 'Publicado sob a Licença MIT.\,br.Icones por <a href="https://github.com/microsoft/fluentui-emoji">microsoft/fluentui-emoji</a>.',
       copyright: 'Copyright © 2022'
     }
   }
