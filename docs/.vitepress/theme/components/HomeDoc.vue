@@ -36,6 +36,8 @@ const { frontmatter } = useData()
 }
 .VPHomeDocHero ~ .Layout > .VPContent h2:first-of-type {
     margin-top: 0;
+    border-top: none;
+    padding-top: 0;
 }
 
 .VPDocHero .VPImage{
