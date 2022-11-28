@@ -70,7 +70,7 @@ const { frontmatter } = useData()
 
 <style scoped>
 .VPHomeDocHero {
-    --vp-home-hero-image-background-image: linear-gradient( -45deg, #eab308B0 50%, #ef4444B0 50% );
+    --vp-home-hero-image-background-image: linear-gradient( -45deg, var(--vp-c-brand) 50%, var(--vp-c-brand-accent) 50% );
 
     padding-top: var(--vp-nav-height) !important;
     margin-top: var(--vp-nav-height) !important;

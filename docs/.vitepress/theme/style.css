@@ -4,9 +4,10 @@
     --vp-c-brand-lighter: #fcd34d;
     --vp-c-brand-dark: #d97706;
     --vp-c-brand-darker: #b45309;
+    --vp-c-brand-accent: #ef4444;
 
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #eab308, #ef4444);
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--vp-c-brand), var(--vp-c-brand-accent));
     --vp-home-hero-image-filter: blur(6rem);
 }
 
