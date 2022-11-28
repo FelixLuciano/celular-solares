@@ -22,13 +22,6 @@ iframe {
     max-width: 100%;
 }
 
-figure {
-    text-align: center;
-}
-figcaption {
-    margin-top: 16px;
-}
-
 main .VPHero {
     padding-left: 0 !important;
     padding-right: 0 !important;
