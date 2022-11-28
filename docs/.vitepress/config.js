@@ -29,9 +29,21 @@ export default {
     nav: [
       { text: 'Insper', link: 'https://insper.edu.br' },
     ],
+    
+    localeLinks: {
+      items: [
+        {
+          link: 'http://localhost:5173/celulas-solares/',
+          text: '🇧🇷 pt-BR',
+        },
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/FelixLuciano/celulas-solares' }
+      {
+        icon: 'github',
+        link: 'https://github.com/FelixLuciano/celulas-solares'
+      }
     ],
 
     sidebar: [
