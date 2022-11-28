@@ -9,11 +9,11 @@ hero:
   text: sensibilizadas por corantes
   tagline: Insper - Química Tecnológica e Ambiental
   image:
-    src: /image/sun_with_face_3d.png
+    src: /image/fluentui-emoji/sun_with_face_3d.png
     alt: Células Solares
   actions:
   - theme: brand
-    text: 📰 Relatório
+    text: Relatório
     link: /relatorio
   - theme: alt
     text: Sobre
@@ -80,9 +80,8 @@ do funcionamento de células solares, técnicas de caracterização e aplicaçã
 
 ## Processo de foncecção de uma célula solar
 
-<figure>
-  <img src="/image/esquema-de-fabricacao.jpg" alt="Esquema de montagem de uma célula solar sensibilizada por corante">
-  <figcaption>Figura 1 - Esquema de montagem de uma célula solar sensibilizada por corante</figcaption>
-</figure>
+<ImgZoom src="/image/esquema-de-fabricacao.jpg" alt="Esquema de montagem de uma célula solar sensibilizada por corante">
+    Figura 1 - Esquema de montagem de uma célula solar sensibilizada por corante
+</ImgZoom>
 
 [^1]: IPCC. Global **Warming of 1.5°C**. Cambridge University Press, Cambridge, UK and New York. 2018. Disponível em: [ipcc.ch/sr15](https://www.ipcc.ch/sr15/).

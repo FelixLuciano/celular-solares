@@ -1,21 +1,17 @@
 ---
 title: Relatório
 sidebar: false
-
-hero:
-    name: Relatório
-    text: Células Solares sensibilizadas por corantes
-    tagline: 2022
-    image:
-        src: /image/newspaper_3d.png
-        alt: Células Solares
+hero: true
 ---
 
-<script setup>
-import { VPHomeHero } from 'vitepress/theme'
-</script>
+<VPDocHero
+    class="VPDocHero"
+    name="Relatório"
+    text="Células Solares sensibilizadas por corantes"
+    tagline="2022"
+    image="/image/fluentui-emoji/bookmark_tabs_3d.png"
+/>
 
-<VPHomeHero class="VPDocHero" />
 
 ## 1.   Experimental
 
@@ -32,10 +28,10 @@ Hello World[^1].
     ...
 :::
 
-<p align="center">
-    <img src="/image/cell-2.svg" alt="Teste">
-	<b>Figura 1 - Análise da Célula 2</b>
-</p>
+
+<ImgZoom src="/image/cell-2.svg" alt="Teste">
+    Figura 1 - Análise da Célula 2
+</ImgZoom>
 
 $$
 e^{i\pi}-1=0
