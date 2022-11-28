@@ -4,8 +4,8 @@ layout: home-doc
 sidebar: false
 
 hero:
-  name: Células Solares
-  text: sensibilizadas por corantes
+  name: Relatório
+  text: Células Solares sensibilizadas por corantes
   tagline: Insper - Química Tecnológica e Ambiental
   image: /image/fluentui-emoji/sun_with_face_3d.png
   actions:
@@ -13,7 +13,7 @@ hero:
     text: Relatório
     link: /relatorio
   - theme: alt
-    text: Sobre
+    text: Introdução
     link: "#introducao"
 
 features:
