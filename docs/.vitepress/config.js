@@ -10,7 +10,7 @@ export default {
   description: 'Células Solares sensibilizadas por corantes.',
 
   head: [
-    ['link', { rel: 'icon', href: "/image/fluentui-emoji/sun_with_face_3d.png" }],
+    ['link', { rel: 'icon', href: "/celulas-solares/image/fluentui-emoji/sun_with_face_3d.png" }],
     ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" }]
   ],
 

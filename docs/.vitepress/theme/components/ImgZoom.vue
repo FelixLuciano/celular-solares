@@ -1,17 +1,20 @@
 
 <script lang="ts" setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 import mediumZoom, { Zoom } from 'medium-zoom'
 
 import type { Ref } from 'vue'
 
-defineProps<{
+const props = defineProps<{
     src: string,
     thumbnail?: string,
     alt: string,
 }>()
 
 const img_node = ref()
+const imageSrc = computed(() => withBase(props.thumbnail || props.src))
+const zoomSrc = computed(() => withBase(props.src))
 const zoom: Ref<Zoom> = ref(mediumZoom())
 
 function open() {
@@ -27,7 +30,7 @@ onMounted(() => {
 
 <template>
     <figure>
-        <img :src="thumbnail || src" :data-zoom-src="src" :alt="alt" tabindex="0" ref="img_node" class="card-photo"
+        <img :src="imageSrc" :data-zoom-src="zoomSrc" :alt="alt" tabindex="0" ref="img_node" class="card-photo"
             @keypress.enter="open()" />
 
         <figcaption>
