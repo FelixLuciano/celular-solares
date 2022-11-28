@@ -26,3 +26,7 @@ main .VPHero {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+.aside-curtain {
+    display: none;
+}
