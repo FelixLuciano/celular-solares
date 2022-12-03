@@ -7,7 +7,7 @@ hero:
   name: Relatório
   text: Células Solares sensibilizadas por corantes
   tagline: Insper - Química Tecnológica e Ambiental
-  image: /image/fluentui-emoji/sun_with_face_3d.png
+  image: /image/fluentui-emoji/sun_with_face_3d_animated.png
   actions:
   - theme: brand
     text: Relatório
