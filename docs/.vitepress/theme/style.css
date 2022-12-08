@@ -31,3 +31,8 @@ main .VPHero {
 .aside-curtain {
     display: none;
 }
+
+.vp-doc table {
+    width: 100%;
+    display: table;
+}

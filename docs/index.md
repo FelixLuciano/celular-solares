@@ -127,7 +127,7 @@ Agência Nacional de Energia Elétrica (CNN, 2022[^4]), de janeiro até o iníci
 a energia solar cresceu 44,4%, chegando a 20 GW. Além disso, a Absolar também estima que os
 investimentos nesta fonte energética já ultrapassam R$ 100 bilhões.
 
-<iframe width="672" height="378" src="https://www.youtube.com/embed/L_q6LRgKpTw" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+<iframe width="688" height="387" src="https://www.youtube.com/embed/L_q6LRgKpTw" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
 
 Apesar de suas vantagens, existem certas ressalvas que devem ser consideradas quanto à
 energia solar, como pode ser observado por todo o estado da Califórnia, nos Estados Unidos.
@@ -145,7 +145,7 @@ negligenciado.
 
 ### Células Solares sensibilizadas por corantes <Badge type="danger" text="To do" />
 
-<iframe width="672" height="378" src="https://www.youtube.com/embed/g1TfQ9rypHI" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+<iframe width="688" height="387" src="https://www.youtube.com/embed/g1TfQ9rypHI" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
 
 <ImgZoom src="/image/esquema-de-fabricacao.jpg" alt="Esquema de montagem de uma célula solar sensibilizada por corante">
     Figura 3 - Esquema de montagem de uma célula solar sensibilizada por corante
