@@ -151,9 +151,8 @@ cuidados na hora de aplicar o eletrólito sobre a o vidro condutor contendo o $T
 
 ## 3.   Aplicações
 
-::: danger To do
-    ...
-:::
+<video src="/video/circuito-alimentado-por-celula-solar.mp4" controls loop />
+
 
 <br>
 
