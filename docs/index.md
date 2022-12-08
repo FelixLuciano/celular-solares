@@ -52,10 +52,6 @@ members:
 ---
 
 
-<!-- <ImgZoom src="/image/celulas-solares.jpg" alt="Células Solares Sensibilizadas por corantes">
-    Figura 1 - Células Solares Sensibilizadas por corantes
-</ImgZoom> -->
-
 ## Introdução
 
 A maior parte da energia consumida no mundo é proveniente de combustíveis fósseis que
@@ -143,13 +139,52 @@ ressaltar, que se o Brasil não se preocupar com o problema do descarte atualmen
 serão gigantescos e o que parecia uma solução a curto prazo, pode se tornar um problema, caso
 negligenciado.
 
-### Células Solares sensibilizadas por corantes <Badge type="danger" text="To do" />
+### Células Solares sensibilizadas por corantes
+
+Para o projeto do grupo, será realizado a montagem de células solares de $TiO_2$ sensibilizado por
+corante. “O funcionamento de uma célula solar baseia-se no efeito fotovoltaico que ocorre em
+materiais semicondutores. Um semicondutor caracteriza-se pela presença de elétrons com energias
+distintas na banda de valência (BV) e na banda de condução (BC), entre essas duas bandas existe
+uma banda proibida de energia ou bandgap(BG).” ( J.S. Agnaldo, J.B.V. Bastos, J.C. Cressoni e G.M.
+Viswanathan, 2005).
 
 <iframe width="688" height="387" src="https://www.youtube.com/embed/g1TfQ9rypHI" title="Como as células solares funcionam?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
 
-<ImgZoom src="/image/esquema-de-fabricacao.jpg" alt="Esquema de montagem de uma célula solar sensibilizada por corante">
-    Figura 3 - Esquema de montagem de uma célula solar sensibilizada por corante
+No caso do projeto do grupo, a célula solar é constituída por um fotoanodo, um contra eletrodo e
+um eletrólito líquido entre os eletrodos. O primeiro é preparado a partir da disposição de uma
+camada de TiO2 nanocristalino sob um vidro com filme condutor transparente com flúor (FTO-fluorine
+doped tin oxide). Esse filme é então sensibilizado pelo corante. Já o contra eletrodo é preparado
+através da deposição de uma fina camada de platina na superfície desse vidro condutor. Ambos são
+então unidos e selados com um termoplástico, onde então é inserido uma solução de eletrólito
+líquido com íons de I3-/ I- a partir de pequenos orifícios feitos no contra eletrodo.
+
+<ImgZoom src="/image/celulas-solares.jpg" alt="Células Solares Sensibilizadas por corantes">
+    Figura 3 - Células Solares Sensibilizadas por corantes
 </ImgZoom>
+
+Para entender melhor como funciona a conversão de luz em eletricidade, é relevante citar o estudo
+CÉLULAS SOLARES SENSIBILIZADAS POR CORANTES NATURAIS: UM EXPERIMENTO INTRODUTÓRIO SOBRE ENERGIA
+RENOVÁVEL PARA ALUNOS DE GRADUAÇÃO" (Gabriela G. Sonai, Maurício A. Melo Jr., Julia H. B. Nunes,
+Jackson D. Megiatto Jr. e Ana F. Nogueira, 2015).
+
+"O princípio básico de funcionamento de uma DSSC é similar ao processo de conversão de energia
+realizado pelas plantas na fotossíntese, que também envolve a absorção da luz solar por um corante,
+a clorofila. Na DSSC sob iluminação, o corante absorve luz (Eq. 1), e no estado excitado é capaz de
+transferir elétrons para a banda de condução (BC) do $TiO_2$ (Eq. 2).
+
+Excitação do corante (1): $D$ + Luz \rightarrow $D^*$
+
+Injeção de elétrons (2):  $D^* + TiO_2 \rightarrow D^+ + e^-$ (BC do $TiO_2$)
+
+"O corante oxidado é então regenerado através de sua redução pelos íons iodeto (I-) que juntamente
+com os íons triiodeto ($I_3^-$) formam o eletrólito (Eq. 3)."
+
+Regeneração do corante (3): $D^+ + 32I^- \rightarrow D + 12I_3^-$
+
+"Os elétrons fotogerados são então transportados pelo circuito externo, onde realizam trabalho e
+atingem o contra eletrodo, onde os íons triiodeto ($I_3^-$) são reduzidos a $I^-$ (Eq. 4)."
+
+Regeneração do par redox (4): $12I_3^- + e^-(Pt) \rightarrow  32I_3^-$
 
 
 [^1]: IPCC. **Global Warming of 1.5°C**. Cambridge University Press, Cambridge, UK and New York. 2018. Disponível em: [ipcc.ch/sr15](https://www.ipcc.ch/sr15/).
