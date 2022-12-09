@@ -18,8 +18,8 @@ hero: true
         },
         {
             theme: 'alt',
-            text:'Excel',
-            link:'https://github.com/FelixLuciano/celulas-solares/blob/main/data/analise.xlsx'
+            text:'Baixar excel',
+            link:'https://github.com/FelixLuciano/celulas-solares/raw/main/data/analise.xlsx'
         },
     ]"
 />
