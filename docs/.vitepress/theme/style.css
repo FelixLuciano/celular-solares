@@ -33,6 +33,10 @@ main .VPHero {
 }
 
 .vp-doc table {
-    width: 100%;
+    min-width: 100%;
     display: table;
+}
+
+.vp-doc td {
+    white-space: nowrap;
 }
