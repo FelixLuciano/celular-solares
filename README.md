@@ -4,7 +4,7 @@
 
 [![Deploy](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml/badge.svg)](https://github.com/FelixLuciano/celulas-solares/actions/workflows/deploy.yml)
 
-[Abrir relatório](https://lucianofelix.com.br/celulas-solares/)
+[Abrir relatório](https://github.lucianofelix.com.br/celulas-solares/)
 
 ## Executando localmente
 
