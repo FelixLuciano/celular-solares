@@ -61,7 +61,7 @@ export default {
 
     footer: {
       message: 'Publicado sob a Licença MIT.<br/>Icones por <a href="https://github.com/microsoft/fluentui-emoji">microsoft/fluentui-emoji</a>.',
-      copyright: 'Copyright © 2022'
+      copyright: 'Copyright © 2023'
     }
   }
 }
